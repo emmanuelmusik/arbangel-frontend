@@ -162,7 +162,7 @@
   </div>
 
 <script>
-const API = location.origin.startsWith('http') && location.port !== '' ? location.origin : 'http://localhost:3001';
+const API = 'https://arbangel-backend-production.up.railway.app';
 let connected = false, busy = {}, results = {};
 
 function fmtMoney(n){ return (n<0?'-':'') + '€' + Math.abs(n).toFixed(2); }
